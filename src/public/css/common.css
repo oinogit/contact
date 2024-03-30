@@ -1,0 +1,15 @@
+.header {
+    background: #fffffc;
+    text-align: center;
+    border-bottom: 1px solid #d3cbc6;
+}
+
+.header-ttl {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    color: #928178;;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

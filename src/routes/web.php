@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\CategoryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +19,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', [ContactController::class, 'index']);
+Route::get('/confirm', [ContactController::class, 'confirm']);
+Route::post('/confirm', [ContactController::class, 'confirm']);
+Route::get('/thanks', [ContactController::class, 'store']);
+Route::post('/thanks', [ContactController::class, 'store']);
+Route::get('/register', [UserController::class, 'create']);
+Route::post('/register', [UserController::class, 'create']);
+Route::get('/login', [UserController::class, 'index']);
+Route::post('/login', [UserController::class, 'index']);
+Route::get('/admin', [CategoryController::class, 'index']);
+Route::post('/admin', [CategoryController::class, 'index']);

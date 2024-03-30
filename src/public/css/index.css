@@ -1,0 +1,116 @@
+.content {
+    background: #fffffc;
+    width: 80%;
+    height: 768px;
+    margin: 0 auto;
+}
+
+.content__top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content__top-ttl {
+    text-align: center;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    color: #928178;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.form__group-content {
+    width: 600px;
+}
+
+.form__label-item {
+    color: #928178;
+}
+.form__label-required {
+    color: #F00;
+}
+
+.form__input-text__name {
+    background: #f3f3f3;
+    color: #d3cbc6;
+    border: none;
+    height: 30px;
+    width: 274.65px;
+}
+
+.form__input-checkbox {
+    color: #928178;
+    cursor: pointer;
+}
+
+.form__input-text__email {
+    background: #f3f3f3;
+    color: #d3cbc6;
+    border: none;
+    height: 30px;
+    width: 600px;
+}
+
+.form__input-text__tell {
+    background: #f3f3f3;
+    color: #d3cbc6;
+    border: none;
+    height: 30px;
+    width: 185.07px;
+}
+
+.form__input-text__address {
+    background: #f3f3f3;
+    color: #d3cbc6;
+    border: none;
+    height: 30px;
+    width: 600px;
+}
+
+.form__input-text__building {
+    background: #f3f3f3;
+    color: #d3cbc6;
+    border: none;
+    height: 30px;
+    width: 600px;
+}
+
+select {
+    background: #f3f3f3;
+    color: #d3cbc6;
+    border: none;
+    height: 30px;
+    width: 300px;
+}
+
+textarea {
+    background: #f3f3f3;
+    color: #d3cbc6;
+    border: none;
+    height: 100px;
+    width: 600px;
+}
+
+.form__button {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.form__button-submit {
+    background: #928178;
+    color: #fffffc;
+    border: none;
+    font-size: 1.2em;
+    height: 40px;
+    width: 150px;
+    margin-top: 40px;
+    cursor: pointer;
+}
